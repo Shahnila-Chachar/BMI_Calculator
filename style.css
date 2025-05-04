@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #064450;
+  padding: 10px;
+}
+.calc {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: 10% auto;
+}
+.calc h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.inputs {
+  width: 100%;
+  max-width: 700px;
+  margin: 30px 0;
+  padding: 35px;
+  border-radius: 10px;
+ /* background: #46466950;*/
+  background: rgba(20, 90, 105, 0.6);
+backdrop-filter: blur(3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.inputs label {
+  color: white;
+  font-size: 21px;
+  font-weight: 600;
+}
+.inputs input {
+  width: 80%;
+  padding: 14px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+  border-radius: 4px;
+  border: 0.01rem solid #dcdcdc;
+  outline: none;
+  
+}
+::placeholder {
+  text-align: end;
+  font-size: 16px;
+}
+.inputs button {
+  padding: 15px;
+  width: 40%;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  color: white;
+  background: cornflowerblue;
+  cursor: pointer;
+  font-size: 21px;
+}
+.inputs button:hover {
+  color: cornflowerblue;
+  background: white;
+}
+.note {
+  width: 38%;
+  max-width: 250px;
+  padding: 15px 36px;
+  background: #ffffff10;
+backdrop-filter: blur(1px);
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.note label {
+  font-size: 24px;
+  font-weight: 600px;
+  color: azure;
+  
+}
